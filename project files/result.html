@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>HematoVision - Prediction Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  </head>
+  <body>
+    <div class="container result-container">
+      <h1>Prediction Result</h1>
+      
+      <div class="prediction-text">
+        <strong>Predicted Class:</strong> {{ result }}
+      </div>
+
+      <img src="{{ url_for('static', filename=image_path) }}" class="result-image" alt="Blood Cell Image">
+      
+      <a href="/" class="upload-another-btn">Upload Another Image</a>
+    </div>
+  </body>
+</html> 
