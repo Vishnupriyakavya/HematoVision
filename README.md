@@ -2,7 +2,7 @@
 
 This project is a web-based application for classifying blood cells from images. It uses a deep learning model built with TensorFlow and Keras, integrated into a Flask web application. Users can upload an image of a blood cell, and the application will predict its type.
 
-## 🌟 Features
+##  Features
 
 -   **Image-based Classification**: Predicts blood cell type from an uploaded image.
 -   **Deep Learning Model**: Utilizes a pre-trained MobileNetV2 model for transfer learning, achieving accurate predictions.
@@ -13,14 +13,14 @@ This project is a web-based application for classifying blood cells from images.
     -   Monocyte
     -   Neutrophil
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 -   **Backend**: Python, Flask
 -   **Machine Learning**: TensorFlow, Keras, Scikit-learn
 -   **Frontend**: HTML, CSS
 -   **Libraries**: NumPy
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 HematoVision/
